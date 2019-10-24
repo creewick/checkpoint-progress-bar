@@ -1,11 +1,24 @@
 import { useState } from 'react';
 
-export default function useInput(defaultValue) {
-  const [get, set] = useState(defaultValue);
-  const input = {
-    onChange: (e) => set(e.target.value),
-    value: get,
-  };
+export default function useInput(storageKey) {
+    const [get, set] = useState(localStorage[storageKey]);
+    let json;
+        try { json = JSON.parse(localStorage[storageKey]); }
+        catch { json = []; }
 
-  return [get, input, set];
+    const [getJson, setJson] = useState(json);
+
+    const input = {
+        onChange: (e) => {
+            set(e.target.value);
+
+            try {
+                setJson(JSON.parse(e.target.value));
+                localStorage[storageKey] = e.target.value;
+            } catch {}
+        },
+        value: get,
+    };
+
+    return [getJson, input];
 }
