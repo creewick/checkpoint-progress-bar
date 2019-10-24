@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2802b150f570462a3635b79422801c8a",
+    "revision": "706572192d5632069b53183d7be8c55e",
     "url": "/checkpoint-progress-bar/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/checkpoint-progress-bar/static/js/2.04c6628c.chunk.js"
   },
   {
-    "revision": "c05df78dd23376cc2c2c",
-    "url": "/checkpoint-progress-bar/static/js/main.a49bf1a5.chunk.js"
+    "revision": "ae9df39ba360c42e6701",
+    "url": "/checkpoint-progress-bar/static/js/main.89f6e41f.chunk.js"
   },
   {
     "revision": "2f1b4729ffdcd988a709",

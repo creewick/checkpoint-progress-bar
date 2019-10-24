@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/checkpoint-progress-bar/precache-manifest.5ae6d3d9995123e5667be0fa8a8236d1.js"
+  "/checkpoint-progress-bar/precache-manifest.61e98dc940c6ad2f1e9f6636b90f92e5.js"
 );
 
 self.addEventListener('message', (event) => {
