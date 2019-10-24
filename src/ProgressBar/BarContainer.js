@@ -7,4 +7,5 @@ export default styled('div')`
     
     background-color: ${GRAY};
     border-radius: ${p => p.height}px;
+    z-index: -1;
 `;

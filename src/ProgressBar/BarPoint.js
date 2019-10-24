@@ -10,7 +10,7 @@ export default styled('div')`
     height: ${p => 2 * p.height}px;
     background-color: ${p => p.color};
     border-radius: 100%;
-    ${p => p.color === GRAY && 'z-index: -100'};
+    ${p => p.color === GRAY && 'z-index: -1'};
 
     transition: left .5s, background-color .5s;
 `;
