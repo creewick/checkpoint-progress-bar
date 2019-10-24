@@ -1,10 +1,23 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ProgressBar from "./ProgressBar/ProgressBar";
 import useInput from "./useInput";
 
 export default function App() {
-    const [points, inputPoints] = useInput('[]');
-    const [completed, inputCompleted] = useInput('[]');
+    const [points, inputPoints, setPoints] = useInput('[]');
+    const [completed, inputCompleted, setCompleted] = useInput('[]');
+
+    useEffect(() => {
+        if (localStorage.points)
+            setPoints(localStorage.points);
+        if (localStorage.completed)
+            setCompleted(localStorage.completed);
+    },[]);
+
+    useEffect(() => {
+        localStorage.points = points;
+        localStorage.completed = completed;
+    }, [points, completed]);
+
     const tryParse = (str) => {
         try {
             return JSON.parse(str);
