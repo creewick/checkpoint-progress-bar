@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/checkpoint-progress-bar/static/js/main.40724438.chunk.js",
-    "main.js.map": "/checkpoint-progress-bar/static/js/main.40724438.chunk.js.map",
+    "main.js": "/checkpoint-progress-bar/static/js/main.6b46308a.chunk.js",
+    "main.js.map": "/checkpoint-progress-bar/static/js/main.6b46308a.chunk.js.map",
     "runtime-main.js": "/checkpoint-progress-bar/static/js/runtime-main.9031027e.js",
     "runtime-main.js.map": "/checkpoint-progress-bar/static/js/runtime-main.9031027e.js.map",
     "static/js/2.04c6628c.chunk.js": "/checkpoint-progress-bar/static/js/2.04c6628c.chunk.js",
     "static/js/2.04c6628c.chunk.js.map": "/checkpoint-progress-bar/static/js/2.04c6628c.chunk.js.map",
     "index.html": "/checkpoint-progress-bar/index.html",
-    "precache-manifest.375c0349cf6f012fdebf354e19a2f3da.js": "/checkpoint-progress-bar/precache-manifest.375c0349cf6f012fdebf354e19a2f3da.js",
+    "precache-manifest.db5635ae9e1bfcbef42e5bd828bbe0c2.js": "/checkpoint-progress-bar/precache-manifest.db5635ae9e1bfcbef42e5bd828bbe0c2.js",
     "service-worker.js": "/checkpoint-progress-bar/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.9031027e.js",
     "static/js/2.04c6628c.chunk.js",
-    "static/js/main.40724438.chunk.js"
+    "static/js/main.6b46308a.chunk.js"
   ]
 }
