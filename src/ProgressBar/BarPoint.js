@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {GRAY} from "./DEFAULTS";
 
 export default styled('div')`
     display: inline-block;
@@ -9,6 +10,7 @@ export default styled('div')`
     height: ${p => 2 * p.height}px;
     background-color: ${p => p.color};
     border-radius: 100%;
+    ${p => p.color === GRAY && 'z-index: -100'};
 
-    transition: left .5s;
+    transition: left .5s, color .5s;
 `;
