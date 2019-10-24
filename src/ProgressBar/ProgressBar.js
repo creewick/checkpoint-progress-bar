@@ -14,7 +14,7 @@ export default function ProgressBar({ points, completed, height }) {
         <BarContainer height={height}>
           {completed.map((part, i) => (
             <BarPart key={i} {...{part, total, height}} color={getLineColor(i)}
-                     left={i === 0} right={i === completed.length - 1 && completedSum > pointsSum} />
+                     left={i === 0} right={i === completed.length - 1} />
           ))}
 
           {points.map(function (part, i) {

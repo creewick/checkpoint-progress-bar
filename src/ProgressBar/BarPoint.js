@@ -12,5 +12,5 @@ export default styled('div')`
     border-radius: 100%;
     ${p => p.color === GRAY && 'z-index: -100'};
 
-    transition: left .5s, color .5s;
+    transition: left .5s, background-color .5s;
 `;
